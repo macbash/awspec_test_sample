@@ -1,6 +1,6 @@
 describe network_acl('acl-039855b01f7238b18') do
   it { should exist }
-  it { should belong_to_vpc('') }
+  it { should belong_to_vpc('vpc-0ad39130924a9daae') }
   it { should have_subnet('subnet-0b3b5baf73b723d5a') }
   it { should have_subnet('subnet-0dce3dd799cd20bb6') }
   it { should have_subnet('subnet-0928c2a0610954264') }
